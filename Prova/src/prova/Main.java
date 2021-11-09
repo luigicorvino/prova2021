@@ -15,11 +15,14 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello fisciano");
+        salute("Fisciano");
+ 
         System.out.println("Hello world!");
-        System.out.println("Hello universe");
+        salute("universe");
         System.out.println("Hello metaverse");
 
     }
-    
+    public static void salute(String whom){
+        System.out.println("Hello, "+whom);
+    }
 }
